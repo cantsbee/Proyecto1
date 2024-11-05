@@ -1,3 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog de cine</title> 
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+    <style>
+H1 {
+    color:black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+
+}
+nav ul{
+    background-color: pink;
+    list-style: none;
+}
+
+.logo{
+    width: 100px;
+    display: flex;
+
+}
+
+    </style>
+</head>
+<body>
+    <h1>Sala 23 </h1>
+    <img class="logo" src="cine.jpg" alt="ícono título" title="ícono título">
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+
+
+
 <form action="/enviar" method="POST">
     <!-- Campo de nombre -->
     <label for="nombre">Nombre:</label>
@@ -24,7 +66,6 @@
     <input type="radio" id="otro" name="genero" value="otro">
     <label for="otro">Otro</label><br><br>
 
-    <!-- Casillas de verificación -->
     <label for="terminos">Acepto los términos y condiciones:</label>
     <input type="checkbox" id="terminos" name="terminos" required><br><br>
 
@@ -40,3 +81,6 @@
     <!-- Botón de envío -->
     <input type="submit" value="Enviar">
 </form>
+
+</body>
+</html>
